@@ -1,6 +1,9 @@
 if game.PlaceId == 7346416636 then
 
 loadstring(game: HttpGet("https://raw.githubusercontent.com/Zer0xOntop/Popittading-/refs/heads/main/PopitNow!"))()
+if game.PlaceId == 18667984660 then
+
+loadstring(game:HttpGet("https://pastebin.com/raw/YdSCgKc8"))()
 else
     local Fluent = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/releases/latest/download/main.lua"))()
     Fluent:Notify({Title = "Uni Hub", Content = "Unsupported Game", Duration = 3})
