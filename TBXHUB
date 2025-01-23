@@ -5,6 +5,8 @@ elseif game.PlaceId == 18667984660 then
       loadstring(game:HttpGet("https://raw.githubusercontent.com/Zer0xOntop/Flex-yourFPS/refs/heads/main/FlexYourFPS"))()
 elseif game.PlaceId == 7903991471 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Zer0xOntop/Zer0xIsonToPDude/refs/heads/main/NglZerroxOnTop"))()
+elseif game.PlaceId == 155615604 then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Zer0xOntop/PrisionLife/refs/heads/main/PrisionLife"))()
 else
     local Fluent = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/releases/latest/download/main.lua"))()
     Fluent:Notify({Title = "TBX HUB", Content = "Unsupported Game", Duration = 3})
